@@ -1,0 +1,24 @@
+{
+  "name": "tradingview-api-management",
+  "version": "1.0.2",
+  "description": "A script that automates Commits on Github once every 4 hours",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xclawkevin/TradingView-API-Management.git"
+  },
+  "author": "xclawkevin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xclawkevin/TradingView-API-Management/issues"
+  },
+  "homepage": "https://github.com/xclawkevin/TradingView-API-Management#readme",
+  "dependencies": {
+    "tradingview-scanner": "^1.0.1",
+	"tradingview-commit-manager": "^1.0.3",
+    "node-schedule": "^2.1.1"
+  }
+}
